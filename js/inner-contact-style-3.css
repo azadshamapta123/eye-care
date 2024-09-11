@@ -1,0 +1,335 @@
+
+
+/* STYLE */
+
+.contact-template.style-3 .inner-flex .ry-each {
+    /*width: calc(50% - 35px);*/
+	width:100%;
+    max-width: 100%;
+    flex-basis: unset;
+}
+
+.contact-template.style-3 .inner-flex {
+    justify-content: space-between;
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group {
+    border: 1px solid #e8e8e8;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrapper {
+	padding: 30px 2vw 30px;
+	background: #f5f5f5;
+}
+.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap .ry-text {
+	font-size: 16px;
+	font-weight: 300;
+}
+.contact-template.style-3 .inner-flex .ry-each .inner-group .map-ratio {
+    width: 100%;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group .map-ratio #mapCustom1, 
+.contact-template.style-3 .inner-flex .ry-each .inner-group .map-ratio #mapCustom2,
+.contact-template.style-3 .inner-flex .ry-each .inner-group .map-ratio #mapCustom3{
+    padding-bottom: 500px;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group {
+    flex-direction: column;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap .icon {
+    width: 42px;
+    border: 1px solid #e8e8e8;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 10px;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap  .ry-text {
+    display: flex;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap .ry-text .span-1 {
+    font-size: 15px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 2px;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap .ry-text a {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.contact-template.style-3 .inner-flex .ry-each .headline h3 {
+    text-align: center;
+    margin-top: 0 !important;
+    margin-bottom: 50px !important;
+}
+
+.contact-template.style-3  {
+	padding-top: 8.333vw;
+}
+.contact-template.style-3 .section-headline h2 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    font-size: calc(30px + 10 * ((100vw - 500px) / 940)) !important;
+}
+
+.contact-template.style-3 .contact-details .headline {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0;
+	justify-content: center;
+	height: 50px;
+    margin-top: 30px;
+}
+
+.contact-template.style-3 .contact-form .headline .ry-text {
+    max-width: max-content;
+}
+
+.contact-template.style-3 .contact-form .headline .ry-text p {
+    display: none;
+}
+
+.contact-template.style-3  .ry-form-box-wrapper {
+	margin-top: 30px;
+}
+.contact-template.style-3 .contact-form .headline .ry-text {
+	max-width: 100%;
+	width: 30%;
+}
+.contact-template.style-3 .contact-form .headline .ry-text .custom-social-wrapper .social-inner-wrap {
+	justify-content: flex-end;
+}
+.contact-template.style-3 .contact-form .headline .ry-text .custom-social-wrapper .social-inner-wrap li {
+	max-width: 41px;
+	min-width: 41px;
+	max-height: 41px;
+	min-height: 41px;
+}
+
+.contact-template.style-3 .contact-form .headline {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.contact-template.style-3 .contact-details {
+	margin-bottom: 8.33vw;
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .form-control {
+	height: 65px;
+	border-color: #e0e0e0;
+	border-radius: unset;
+	box-shadow: unset;
+	padding-left: 25px;
+	font-size: 18px;
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .has-error .form-control {
+	border-color: #a94442;
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .form-group {
+	margin-bottom: 10px;
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .field-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	width: calc(100% + 10px);
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .field-wrapper .field-xs {
+	width: calc(33.33% - 10px);
+	margin-left: 10px;
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .field-wrapper .field-lg {
+	width: calc(100% - 10px);
+	margin-left: 10px;
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .field-wrapper textarea.form-control {
+	height: 290px;
+	padding-top: 15px;
+	resize: unset;
+}
+
+.contact-template.style-3 .contact-form .ry-form-box-wrapper .ry-btn {
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+/* SOCIAL */
+.custom-social-wrapper {
+	padding-left: 0;
+	list-style: none;
+	width: 100%;
+}
+
+.custom-social-wrapper .social-inner-wrap {
+    display: flex;
+}
+
+.custom-social-wrapper .social-inner-wrap li a {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #ba2c2c;
+	width: 100%;
+	height: 100%;
+}
+
+.custom-social-wrapper .social-inner-wrap li a svg {
+	width: 16px;
+	fill: #fff;
+}
+
+.custom-social-wrapper .social-inner-wrap li {
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.custom-social-wrapper .social-inner-wrap li {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.custom-social-wrapper .social-inner-wrap li a.facebook {
+    background: #1970ca;
+}
+
+.custom-social-wrapper .social-inner-wrap li a.twitter {
+    background: #17a7dc;
+}
+
+.custom-social-wrapper .social-inner-wrap li a.linkedin {
+    background:   #007bb6;
+}
+
+.custom-social-wrapper .social-inner-wrap li a.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.custom-social-wrapper .social-inner-wrap li a.google {
+    background: #dd4b39;
+}
+
+.custom-social-wrapper .social-inner-wrap li a.yelp {
+    background: #ba2c2c;
+}
+/* SOCIAL */
+
+@media (max-width: 1199px) {
+	.contact-template.style-3 .inner-flex .ry-each {
+		width: calc(50% - 10px);
+	}
+}
+@media (max-width: 1080px) {
+	.contact-template.style-3 .inner-flex {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.contact-template.style-3 .inner-flex .ry-each:not(:last-child),
+	.contact-template.style-3 .inner-flex .ry-each .headline h3 {
+		margin-bottom: 30px;
+	}
+	.contact-template.style-3 .inner-flex .ry-each {
+		width: calc(80% - 10px);
+	}
+	.contact-template.style-3 .contact-form .headline {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.contact-template.style-3 .section-headline h2 {
+		text-align: center;
+	}
+	.contact-template.style-3 .contact-form .headline .ry-text {
+		max-width: 100%;
+		width: 100%;
+	}
+	.contact-template.style-3 .contact-form .headline .ry-text .custom-social-wrapper .social-inner-wrap {
+		justify-content: center;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 768px) {
+	.contact-template p {
+		text-align: center;
+	}
+	.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap {
+		width: 100%;
+	}
+	.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap .ry-text {
+		text-align: center;
+	}
+	.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.contact-template.style-3 .inner-flex .ry-each .inner-group .text-wrap {
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	.contact-template p {
+		font-size: calc(16px + 2 * ((100vw - 500px) / 940)) !important;
+	}
+
+	.contact-template.style-3 .contact-form .ry-form-box-wrapper .form-control {
+		height: 60px;
+		font-size: 16px;
+		padding-left: 20px;
+	}
+	.contact-template.style-3 .contact-form .ry-form-box-wrapper .field-wrapper .field-xs {
+		width: calc(100% - 10px);
+	}
+
+}
+
+/*.form-group.required.has-error {
+    border: 1px solid #ff004f;
+}*/

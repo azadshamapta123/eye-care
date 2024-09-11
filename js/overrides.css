@@ -1,0 +1,721 @@
+/* //Removed excess margin on bottom on forms alert */
+.alert li:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* //Add Underline on all hyperlink */
+body.default #ry-pg-body a:not(.ry-btn):not(.fa):hover {
+    text-decoration: underline !important;
+}
+
+
+
+/* Fix for Review Form Spacing */
+
+body[data-page-name="reviews"] .ry-flex.col2 .ry-each {
+    width: 49% !important;
+}
+
+body[data-page-name="reviews"] .ry-form.ry-form-box input[type=text],
+.ry-form.ry-form-box textarea {
+    color: #403f40;
+    margin: 0 0 0 !important;
+}
+
+body[data-page-name="reviews"] .ry-margin-btm-30 {
+    margin: 0px 0 10px !important;
+}
+
+body[data-page-name="reviews"] .ry-form-box p br {
+    display: none;
+}
+
+body[data-page-name="reviews"] .ry-form-box>div>p {
+    margin: 0 0 18px 0 !important;
+}
+
+
+body[data-page-name="reviews"] .module-24 .ry-each {
+    padding: 35px 0 25px !important;
+    border-bottom: 1px solid #dbe1e6;
+}
+
+body[data-page-name="reviews"] ul.pagination li.active a {
+    background: #D86FE3;
+    color: #fff !important;
+}
+
+body[data-page-name="reviews"] .pagination>li>a {
+    height: 35px !important;
+    width: 35px !important;
+    padding: unset !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+body[data-page-name="reviews"] ul.pagination li a {
+    background: #F0FCFF;
+    color: #333 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    body[data-page-name="reviews"] .ry-flex.col2 .ry-each {
+        width: 100% !important;
+    }
+
+    body[data-page-name="reviews"] .ry-form .form-group[data-type="submit"] {
+        display: flex;
+        margin: 28px 0 0 0;
+    }
+}
+
+.module-34 .module-34-top .module-34-top-left {
+    flex-direction: column-reverse;
+    gap: 15px;
+}
+
+/* Fix for Payment Options Grid */
+
+.module-311 .ry-payment-options-logos .ry-each img:not(.check) {
+    width: 90%;
+    max-width: 120px;
+    display: inline;
+}
+
+.module-311 .isLarge {
+    max-width: 100px !important;
+}
+
+.module-311 .isSmall {
+    max-width: 180px !important;
+}
+
+.module-311 .ry-payment-options-logos .ry-each {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.module-311 h3 {
+    font-size: 27px;
+    margin: 48px 0 28px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .module-311 .ry-payment-options-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .module-311 .ry-payment-options-logos .ry-each {
+        width: 95% !important;
+        max-width: 320px;
+    }
+
+    .module-311 .ry-payment-options-logos .ry-each img:not(.check),
+    .module-311 .isSmall,
+    .module-311 .isLarge {
+
+        max-width: 160px !important;
+    }
+}
+
+
+/* Adding transition on all elements */
+
+/* *:not(.carousel *):not(.ry-accordion *):not(#accordion *):not([data-aos-duration]):not(.slick-track),
+::before,
+::after {
+    transition: 0.3s ease-in-out all;
+} */
+
+/* Right Banner Fixed   */
+#ry-pg-banner .ry-bnr-wrp {
+    background-position: right !important;
+}
+
+@media screen and (max-width: 768px) {
+    #ry-pg-banner .ry-bnr-wrp {
+        background-position: 90% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #ry-pg-banner .ry-bnr-wrp {
+        background-position: 90% 90% !important;
+    }
+}
+
+
+
+
+
+/*AMP LINK */
+
+
+
+.overlink {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+.overlink a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 0;
+}
+
+
+
+.ry-menu .ry-nav li.dropdown .dropdown-menu.hover li.third-pf a {
+    color: #fff;
+}
+
+.ry-menu .ry-nav li.dropdown .dropdown-menu.hover li.third-level-container:before {
+    content: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="%23fff"%3E%3Cpath d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/%3E%3C/svg%3E');
+    position: absolute;
+    height: 20px;
+    width: 8px;
+    z-index: 3;
+    right: 15px;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+/* // Third level  standard */
+
+.ry-menu .ry-nav li .third-level-container.on-left .third-level-dropdown {
+    left: -100%;
+}
+
+.ry-menu .ry-nav li .third-level-container .third-level-dropdown a {
+    color: #fff !important
+}
+
+.module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu li a:active,
+.module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu li a:focus {
+    background: transparent !important;
+    outline: none;
+    opacity: 0.6;
+}
+
+
+
+
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button{
+    gap: 8px;
+}
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a:first-child{
+    margin: unset;
+}
+
+.ry-menu .ry-nav li .third-level-container.left-content .third-level-dropdown {
+    left: unset;
+    right: 100%;
+}
+
+.max-size{
+    float:none;
+    max-width: 600px;
+    margin: 0 auto !important;
+}
+.article .article-image1 
+{
+    display:none
+}
+
+
+body[data-page-name="our-team"] #ry-pg-banner .ry-bnr-wrp
+{
+    background-image:url(https://s3.amazonaws.com/static.organiclead.com/Site-5260291e-2945-4625-b2eb-c2581306713b/Assets/ib3_new.jpg) !important;
+}
+
+
+
+/** MYOPIA MANAGEMENT STYLE START **/
+.service-page * {
+    text-align: center;
+}
+.service-page p {
+    font-size: 18px !important;
+}
+body[data-page-name="myopia-management"] #ry-pg-banner .ry-bnr-wrp {
+	background-image: url(https://s3.amazonaws.com/static.organiclead.com/Site-d143fbf9-c9d1-4bc2-95f3-98e78a39dd4d/servicesassets/insidebanner.png) !important;
+}
+body[data-page-name="myopia-management"] #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1{
+	font-size: clamp(1.875rem, 1.5625rem + 1.5625vw, 3.125rem);
+}
+.ry-title h1 {
+    font-size: clamp(1.875rem, 1.5625rem + 1.5625vw, 3.125rem) !important;
+}
+.ry-full-box {
+    padding: 150px 0;
+}
+.ry-full-box.style-1 .ry-photo {
+    margin-bottom: 30px;
+}
+.ry-full-box.style-1 .ry-photo img{
+	border-radius:0;
+}
+.ry-full-box.style-1 .ry-title h1 {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.service-page .style-1 .ry-container {
+    padding: 0 10%;
+}
+.ry-full-box.bg-color-1 {
+    padding: 0;
+    background: #c8bdc9;
+}
+.ry-full-box.bg-color-1 .ry-card {
+    margin-top: -190px;
+    margin-bottom: -190px;
+	padding-right: 8%;
+	padding-left: 8%;
+	position: relative;
+	z-index: 2;
+}
+.ry-full-box.style-1 {
+    padding-bottom: 330px;
+}
+.service-lists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	margin-top: 40px;
+	row-gap: 40px;
+}
+.service-lists .ry-each {
+	width: calc(50% - 0px);
+	padding: 0px 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0px;
+	row-gap: 10px;
+}
+.service-lists .ry-each .for-icon {
+    width: 180px;
+    height: 180px;
+}
+.service-lists .ry-each .service-content {
+    max-height: 410px;
+    min-height: 160px;
+    height: 100%;
+}
+.service-lists .ry-each h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.ry-card {
+	padding: 80px 10%;
+	border-radius: 20px;
+	background: #fff;
+	box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+}
+
+.ry-full-box.bg-img-1 {
+    background: url(https://s3.amazonaws.com/static.organiclead.com/Site-5260291e-2945-4625-b2eb-c2581306713b/Assets/bg_1.png);
+    padding-top: 200px;
+    background-size: cover;
+	position: relative;
+    z-index: 1;
+}
+.ry-full-box.bg-img-1 .ry-content.content-2 {
+    margin: 120px auto;
+    width: 100%;
+    max-width: 768px;
+}
+.ry-full-box.bg-img-1 .ry-content.content-2 * {
+    color: #fff;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem) !important;
+}
+.ry-full-box.bg-img-1 .ry-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	gap: 50px;
+	padding: 100px 10%;
+	margin-bottom: -33%;
+}
+.ry-full-box.bg-img-1 .ry-card .ry-content, .ry-full-box.bg-img-1 .ry-card .ry-photo {
+    width: 100%;
+    max-width: 670px;
+    margin: auto;
+}
+.research-seciton {
+	padding-top: 22%;
+	padding-bottom: 10vw;
+    background: url(https://s3.amazonaws.com/static.organiclead.com/Site-5260291e-2945-4625-b2eb-c2581306713b/Assets/bg_2.png);
+    background-size: cover;
+    background-position: 0% bottom;
+}
+.research-seciton .ry-content p span {
+    font-size: 26px !important;
+}
+.research-seciton .ry-content * {
+    text-align: left !important;
+}
+.research-seciton .ry-content {
+	width: 100%;
+	max-width: 470px;
+}
+.option-section {
+    padding: 160px 0;
+}
+.option-section .ry-title h1 {
+    margin-bottom: 100px;
+}
+.option-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.option-lists .ry-each {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    border-radius: 20px;
+    padding: 80px 10%;
+    justify-content: space-between;
+    gap: 6%
+}
+.option-lists .ry-each .for-icon {
+    max-width: 260px;
+}
+.option-lists .ry-each .option-content {
+    width: 100%;
+}
+.option-lists .ry-each * {
+    text-align: left !important;
+}
+.option-lists .ry-each .option-content > p span {
+    font-weight: bold;
+    font-size: clamp(1.25rem, 1.1429rem + 0.5357vw, 1.625rem);
+}
+.option-lists .ry-each .option-content > p .span-1 {
+    color: #584a5e;
+}
+.option-lists .ry-each .option-content > p .span-2 {
+    background: #584a5e;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 10px;
+}
+.option-lists .ry-each .option-content > p {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.option-lists .ry-each .option-content ul {
+    list-style: none;
+	padding: 0px;
+}
+.option-lists .ry-each .option-content ul li:before {
+    content: "\f00c";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    color: #584a5e;
+}
+.option-lists .ry-each .option-content ul li {
+    padding-left: 26px;
+}
+
+@media (max-width: 1440px){
+	.research-seciton {
+		padding-top: 400px;
+	}
+	.research-seciton{
+		background-position: 32% bottom;
+	}
+	.ry-full-box.bg-img-1{
+		background-position: 50% center;
+	}
+}
+
+@media (max-width: 1400px){
+	.ry-full-box.style-1 {
+		padding-bottom: 260px;
+	}
+	.ry-full-box {
+		padding: 80px 0;
+	}
+	.ry-full-box.style-1 .ry-title h1 {
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	.option-section {
+		padding: 80px 0;
+	}
+	.option-section .ry-title h1 {
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 1080px){
+	.research-seciton {
+		padding-top: 320px;
+	}
+}
+@media (max-width: 991px){
+	.service-lists .ry-each {
+		width: 100%;
+	}
+	.service-lists .ry-each .service-content {
+		min-height: 109px;
+	}
+	.option-lists .ry-each {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+	}
+	.option-lists .ry-each .option-content > p {
+		flex-direction: column;
+	}
+	.research-seciton {
+		background-position: 50% bottom;
+		position: relative;
+	}
+	.research-seciton .ry-content * {
+		text-align: center !important;
+	}
+	.research-seciton .ry-content {
+		margin: auto;
+	}
+	.research-seciton:before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: #c6dee0;
+		opacity: 0.93;
+	}
+	.research-seciton {
+		padding-top: 28vw;
+		padding-bottom: 80px;
+		position: relative;
+		background-position: 72% bottom;
+	}
+	.ry-card{
+		padding: 70px 10% !important;
+	}
+	.option-lists .ry-each .for-icon {
+		max-width: 200px;
+	}
+}
+
+@media (max-width: 767px){
+	.ry-card {
+		padding: 70px 20px !important;
+	}
+	.service-page .style-1 .ry-container {
+		padding: 0 0px;
+	}
+	.ry-full-box.bg-img-1 .ry-content.content-2 {
+		margin: 60px auto;
+	}
+	.ry-full-box.style-1 {
+		padding-top: 40px;
+	}
+}
+
+@media (min-width: 992px){
+	#ry-pg-banner .ry-bnr-wrp .ry-container {
+		max-width: 83.33333%;
+	}
+	.service-page .ry-container {
+		max-width: 1280px;
+	}
+	.ry-card {
+		padding: 140px 10%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1440px){
+	#ry-pg-banner .ry-bnr-wrp .ry-container,
+	.service-page .ry-container{
+		max-width: 90%;
+	}
+}
+
+@media (min-width:1441px){
+	body[data-page-name="myopia-management"] #ry-pg-banner .ry-bnr-wrp:before {
+		background: transparent;
+	}
+}
+
+
+/** MYOPIA MANAGEMENT STYLE eND **/
+
+/** OUR FRAME COLLECTION **/
+.frame-grid-wrap {
+    padding: 35px 0;
+}
+.frame-grid-wrap .ry-flex {
+    margin-left: -30px;
+    width: calc(100% + 30px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.frame-grid-wrap .ry-flex .ry-each {
+    width: calc(50% - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 25px -20px;
+}
+.frame-grid-wrap .ry-flex .ry-each img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+@media (max-width: 1200px){
+	.module-192 .inner-btm {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.module-192 .copyright div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.module-192 .ry-social {
+		flex-direction: column;
+		margin-top: 1em;
+	}
+	.emblem-wrap, .emblem-wrap img {
+		margin-right: 0;
+	}
+	.module-192 .inner-btm .ry-right > div:last-child .done4you {
+		margin: 0 auto;
+	}
+	.module-192 .inner-btm .ry-right > div:last-child {
+		justify-content: center;
+		align-items: center;
+	}
+	.module-192 .inner-btm .ry-right > div:last-child .done4you img {
+		float: none;
+		margin: 0 auto;
+	}
+	div.module-192 .powered-by {
+		justify-content: center;
+		align-items: center;
+		margin-top: 1em;
+	}
+}
+@media (max-width: 480px){
+	.frame-grid-wrap .ry-flex .ry-each {
+		width: calc(100% - 30px);
+	}
+}
+
+.ry-form.form-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin: 0 auto 40px;
+}
+.ry-form.form-flex .ry-label p {
+    font-size: 16px;
+    font-weight: 500 !important;
+    margin-top: 8px;
+}
+
+.ry-form.form-flex .cmsForm {
+    width: 100%;
+}
+
+
+.field-wrapper {
+	margin-left: -10px;
+	width: calc(100% + 10px);
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed rgba(0,0,0,0.1);
+}
+.field-wrapper .field-md {
+	width: calc(50% - 10px);
+	margin-left: 10px;
+}
+
+.field-wrapper .field-sm {
+	width: calc(33.33% - 10px);
+	margin-left: 10px;
+}
+.field-wrapper .field-lg {
+	width: calc(100% - 10px);
+	margin-left: 10px;
+}
+.field-title p, .field-wrapper p, .field-label label {
+	font-weight: 600 !important;
+	font-size: 18px !important;
+}
+.field-label label {
+    margin-top: 15px;
+}
+body[data-page-name="refer-a-friend"] .form-group input#aptform {
+    margin: 0 0 60px 0;
+}
+
+.module-34 .module-34-top .module-34-top-right {
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul.social-icons-custom.ry-social-custom {
+    z-index: 5;
+    padding: 0;
+    list-style-type: none;
+    /* position: absolute; */
+    /* top: 8px; */
+}
+
+ul.social-icons-custom.ry-social-custom .social-inner-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+}
+
+ul.social-icons-custom.ry-social-custom .social-inner-wrap a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.social-icons-custom.ry-social-custom .social-inner-wrap svg {
+    width: 20px;
+}
+
+ul.social-icons-custom.ry-social-custom .social-inner-wrap svg.SVG_facebook {
+    left: 3px;
+    position: relative;
+}
+
+ul.social-icons-custom.ry-social-custom .social-inner-wrap a:hover svg {
+    fill: #5271a2;
+}

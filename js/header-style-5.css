@@ -1,0 +1,376 @@
+#live-btn .form-group {
+    margin: 0;
+    width: unset;
+}
+
+/*HEADER STYLE 5 */
+.module-34 .ry-btn-module-34 {
+    padding: 15px 25px;
+    border-radius: 40px;
+    border: 1px solid;
+    font-size: 16px;
+}
+
+.module-34 .ry-btn-module-34 i {
+    margin-right: 6px;
+}
+
+.module-34 .ry-flex {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.module-34 .module-34-top {
+    z-index: 50;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .module-34 .module-34-bot .ry-container {
+        max-width: 97%;
+    }
+}
+
+.module-34 .ry-header-logo {
+    position: relative;
+    top: 0px;
+}
+
+.module-34 .ry-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.module-34 .ry-menu li {
+    list-style: none;
+}
+
+.module-34 .ry-menu a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 20px 5px;
+    font-size: 16px;
+}
+
+.module-34 .ry-menu .dropdown.primary:hover .dropdown-menu,
+.module-34 .ry-menu .dropdown.primary:focus .dropdown-menu {
+    display: block;
+}
+
+.module-34 .ry-menu .dropdown-menu {
+    margin: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+}
+
+.module-34 .ry-menu .dropdown-menu a {
+    padding: 10px 20px;
+    display: block;
+}
+
+.ry-menu {
+    width: 100%;
+}
+
+.ry-menu .ry-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ry-menu .ry-nav li.dropdown .dropdown-menu.hover {
+    top: 80px;
+}
+
+.ry-menu .ry-nav li.dropdown .dropdown-toggle span {
+    display: block;
+    margin-left: 15px;
+}
+
+.module-35 .module-35-header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 3%;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+}
+
+.module-35 .module-35-header-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .module-35 .module-35-header-center {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 375px) {
+    .module-35 .module-35-header-center {
+        max-width: 120px;
+    }
+}
+
+.module-35 .module-35-header-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.module-35 .mobile-button a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+@media (max-width: 425px) {
+    .module-35 .mobile-button a {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.module-35 .mobile-button a:not(:last-of-type) {
+    margin-right: 7px;
+}
+
+.module-35 .mobile-button a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+}
+
+@media (max-width: 425px) {
+    .module-35 .mobile-button a i {
+        font-size: 1.1rem;
+    }
+}
+
+.module-35 .mobile-nav .hamburger {
+    outline: 0;
+}
+
+.module-35 .mobile-nav .hamburger:hover {
+    opacity: 1;
+}
+
+/* END HEADER STYLE 5 */
+
+/** Header Start **/
+
+.module-34 .ry-btn-module-34{
+	font-size: calc(17px + 1 * ((100vw - 320px) / 1280));
+}
+.module-34 .module-34-top .module-34-top-left, .module-34 .module-34-top .module-34-top-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.module-34 {
+	padding: 15px 0px 0px;
+	position: absolute;
+	z-index: 99;
+}
+.module-34 .module-34-bot {
+	margin-top: 15px;
+}
+.module-34 .ry-header-logo img {
+	max-width: 200px;
+	transition: all .3s ease;
+}
+
+.module-34.fixed .ry-header-logo img {
+	width: 100%;
+	max-width: 220px;
+	transition: all .3s ease;
+}
+.ry-menu .ry-nav li.primary{
+	padding: 0px;
+}
+.module-34 .ry-menu a{
+	font-size: calc(16px + 2 * ((100vw - 320px) / 1280));
+	padding: 0px 5px 20px;
+	letter-spacing: 1px;
+}
+.ry-menu .ry-nav li.dropdown .dropdown-toggle span{
+	margin-left: 8px;
+}
+.module-34.fixed .ry-menu a{
+	font-size: calc(17px + 2 * ((100vw - 320px) / 1280));
+	padding: 0px 5px 14px;
+}
+.ry-menu .ry-nav li.dropdown .dropdown-menu li {
+	padding: 6px 20px;
+}
+.ry-menu .ry-nav li.dropdown .dropdown-menu li a {
+	font-size: clamp(0.9375rem, 0.8807rem + 0.2841vw, 1.0625rem);
+	padding: 10px 15px;
+}
+.module-34.fixed .ry-menu .ry-nav li.dropdown .dropdown-menu li a {
+	font-size: calc(16px + 2 * ((100vw - 320px) / 1280));
+}
+.ry-menu .ry-nav li.dropdown .dropdown-menu.hover {
+	top: 38px;
+}
+.ry-sticky-menu.fixed .ry-menu .ry-nav li .dropdown-menu.hover {
+	top: 38px;
+}
+.ry-sticky-menu.fixed {
+	padding: 15px 0 0;
+}
+.module-34.fixed .module-34-bot {
+	margin-top: 15px;
+}
+.ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:last-child {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.ry-menu .ry-nav li.dropdown .dropdown-menu.hover li:first-child {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.module-35 {
+	position: fixed;
+	z-index: 9999;
+}
+.module-35 .mobile-nav .hamburger {
+	padding-left: 0;
+}
+.module-35-header-center .ry-mobile-logo img {
+	max-width: 220px;
+	margin: auto;
+}
+
+/** Header End **/
+
+/** Updated CSS By Akbar **/
+
+@media (max-width: 991px){
+
+	.module-35 .module-35-header-left, .module-35 .module-35-header-right {
+		display: block;
+		flex: unset;
+	}
+	.module-35-header-container .flex-item.mobile_menu {
+		display: none;
+	}
+	.module-35-header-container .mobile-button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.module-35 .module-35-header-center {
+		max-width: 220px;
+	}
+	.module-35-header-center .ry-mobile-logo img {
+		max-width: 105px;
+	}
+}
+@media (max-width: 600px){
+	.module-35 .module-35-header-center {
+		max-width: 200px;
+	}
+	.module-35 .mobile-button a {
+		width: 35px;
+		height: 35px;
+	}
+	.module-35 .mobile-button a i {
+		font-size: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+@media (max-width: 375px){
+	.module-35 .module-35-header-center {
+		max-width: 180px;
+	}
+}
+
+@media (max-width: 1080px){
+	.module-34{
+		display: none !important;
+	}
+	.module-35{
+		display: block !important;
+	}
+	.mm-listitem:after{
+		right: 20px;
+	}
+}
+
+body.home .module-34 {
+    background: transparent;
+	    box-shadow: none;
+}
+body.home .module-34.ry-sticky-menu.fixed,
+body.default .module-34.ry-sticky-menu.fixed{
+    background: rgb(255 255 255 / 90%);
+	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+}
+.module-34 .ry-btn-module-34{
+	border: 0;
+}
+.module-34 .module-34-top .module-34-top-right .ry-btn-module-34, .module-34 .ry-btn-module-34 {
+   background: #231f20 !important;
+   border-radius: 50px !important;
+}
+.module-34 .module-34-top .module-34-top-right .ry-btn-module-34:hover, .module-34 .ry-btn-module-34:hover {
+    background: #7f8da0 !important;
+    color: #fff !important;
+}
+body.default .module-34 {
+    position: relative;
+	box-shadow: 0 0 40px rgb(0 0 0 /10%);
+	background: #fff !important;
+}
+
+.module-34 .ry-menu .ry-nav li>a {
+    color: #111;
+}
+
+.module-35 .mobile-nav .hamburger-inner, .module-35 .mobile-nav .hamburger-inner:before, .module-35 .mobile-nav .hamburger-inner:after{
+	background: #111 !important;
+}
+.module-35 .module-35-header-container{
+	background: #fff !important;
+}
+.mm-panel .mob-menu a, .mm-menu_theme-black .mm-navbar>*, .mm-menu_theme-black .mm-navbar a {
+    text-transform: uppercase;
+}
